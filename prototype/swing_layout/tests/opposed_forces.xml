@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row>
+		<button snap="R">Snap Right -&gt;</button>
+		<button snap="L">&lt;- Snap Left</button>
+	</row>
+
+	<row>
+		<!-- Generates a warning due to ambiguity -->
+		<button snap="R">Snap Right -&gt;</button>
+		<button snap="LR">&lt;- Spanner gets disabled -&gt;</button>
+	</row>
+
+	<row>
+		<!-- Generates a warning due to ambiguity -->
+		<button snap="LR">&lt;- Spanner gets disabled -&gt;</button>
+		<button snap="L">&lt;- Snap Left</button>
+	</row>
+
+</layout>

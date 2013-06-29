@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row>
+		<col>
+			<button snap="TR" margin="B4">First and Last Name</button>
+			<align/>
+			<button snap="TR" margin="B4">Age</button>
+			<align/>
+			<button snap="TR" margin="B4">Occupation</button>
+			<align/>
+
+			<row snap="T">
+				<button snap="R">One</button>
+				<button snap="R">Two</button>
+			</row>
+		</col>
+		<col>
+			<button snap="TL">John Smith</button>
+			<align/>
+			<button snap="TL">32</button>
+			<align/>
+			<button snap="TL">Professional Eater</button>
+			<align/>
+			<button snap="TL">Three</button>
+		</col>
+	</row>
+</layout>

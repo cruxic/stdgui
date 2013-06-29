@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row>
+		<button>The quick brown fox</button>
+		<button>jumped over</button>
+		<button>the</button>
+		<button>lazy dog</button>
+	</row>
+
+	<row>
+		<button snap="L">The quick brown fox</button>
+		<button>jumped over</button>
+		<button snap="LR">the</button>
+		<button snap="R">lazy dog</button>
+	</row>
+
+</layout>

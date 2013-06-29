@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="true">
+	<row snap="T">
+		<button snap="LR">Level 0</button>
+	</row>
+	<row snap="TB">
+		<col snap="LR">
+			<row snap="T">
+				<button snap="LR">Level 1a</button>
+			</row>
+			<row snap="TB">
+				<col snap="LR">
+					<row snap="TB">
+						<button snap="LRTB">Level 2a</button>
+					</row>
+				</col>
+				<col snap="LR">
+					<row snap="TB">
+						<button snap="LRTB">Level 2b</button>
+					</row>
+				</col>
+			</row>
+		</col>
+		<col snap="LR">
+			<row snap="TB">
+				<col snap="LR">
+					<row snap="TB">
+						<button snap="LRTB">Level 2c</button>
+					</row>
+				</col>
+				<col snap="LR">
+					<row snap="TB">
+						<button snap="LRTB">Level 2d</button>
+					</row>
+				</col>
+			</row>
+			<row snap="B">
+				<button snap="LR">Level 1b</button>
+			</row>
+		</col>
+	</row>
+
+</layout>

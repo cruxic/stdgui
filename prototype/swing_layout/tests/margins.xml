@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row snap="T">
+		<button snap="LT" margin="L1">&lt;-1 0^ 0-&gt;</button>
+		<button snap="LRT" margin="L2, R1, T1">&lt;-2 1^ 1-&gt;</button>
+		<button snap="T" margin="L1, R1, T2">&lt;-1 2^ 1-&gt;</button>
+		<button snap="LRT" margin="R4, T3">&lt;-0 3^ 4-&gt;</button>
+		<button snap="RT" margin="R1, T4">&lt;-0 4^ 1-&gt;</button>
+	</row>
+
+	<button snap="LRT">A</button>
+	<button snap="LTB" margin="T2 B1 L1">B</button>
+	<button snap="L" margin="T1 B1 L2">C</button>
+	<button snap="LTB" margin="B4 L3">D</button>
+	<button snap="LB" margin="B1 L4">E</button>
+
+</layout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout pad="0" auto-margins="false">
+	<row snap="TB">
+		<button snap="LTB">Unpadded Height</button>
+		<col snap="L">
+			<button>Unpadded Center</button>
+		</col>
+		<col snap="L" pad="T2 B32">
+			<button snap="TB">Padded Height (T2 B32)</button>
+		</col>
+		<col snap="L">
+			<row snap="TB" pad="T2 B32">  <!-- just another way to achieve the above padding -->
+				<button snap="LR">Padded Center</button>
+			</row>
+		</col>
+	</row>
+</layout>

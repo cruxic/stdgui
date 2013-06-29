@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row snap="T">
+		<button>child_align_dir="" (centered)</button>
+	</row>
+	<row snap="T" pad="B8">
+		<col snap="LR" child_align_dir="">
+			<row>
+				<button>C1----</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2----</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3----</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4----</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button snap="LR">C4s</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button snap="LR">C3s</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button snap="LR">C2s</button>
+			</row>
+
+			<row>
+				<button snap="LR">C1s</button>
+			</row>
+		</col>
+	</row>
+	<row snap="T">
+		<button>child_align_dir="LR"</button>
+	</row>
+	<row snap="T">
+		<col snap="LR" child_align_dir="LR">
+			<row>
+				<button>C1----</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2----</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3----</button>
+				<align/>
+				<button>C4</button>
+			</row>
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button>C4----</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button>C3</button>
+				<align/>
+				<button snap="LR">C4s</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button>C2</button>
+				<align/>
+				<button snap="LR">C3s</button>
+			</row>
+
+			<row>
+				<button>C1</button>
+				<align/>
+				<button snap="LR">C2s</button>
+			</row>
+
+			<row>
+				<button snap="LR">C1s</button>
+			</row>
+		</col>
+	</row>
+</layout>

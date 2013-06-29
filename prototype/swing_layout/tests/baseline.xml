@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+
+	<row>
+		<label snap="RT">Top</label>
+		<entry snap="T">Top</entry>
+		<button snap="LT">Top</button>
+
+		<label snap="RT" margin="T2">MarginT2</label>
+		<entry snap="T"  margin="T2">MarginT2</entry>
+		<button snap="LT" margin="T2">MarginT2</button>
+
+		<label snap="R">Center</label>
+		<entry snap="">Center</entry>
+		<button snap="L">Center</button>
+
+		<label snap="RB">Bottom</label>
+		<entry snap="B">Bottom</entry>
+		<button snap="LB">Bottom</button>
+
+		<col>
+			<button>A</button>
+			<button>B</button>
+			<button>C</button>
+		</col>
+	</row>
+	
+</layout>

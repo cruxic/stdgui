@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+
+	<row snap="B">
+		<button>1a</button>
+	</row>
+	<row>
+		<button>2a</button>
+		<button>2b</button>
+	</row>
+	<row snap="T">
+		<button>3a</button>
+		<button>3b</button>
+		<button>3c</button>
+	</row>
+
+	<!-- the above 3 rows are grouped as one and centered -->
+
+	<row>
+		<button snap="R">4-Right</button>
+		<button>4-Center</button>
+		<button snap="L">4-Left</button>
+	</row>
+
+	<row>
+		<button snap="R">5a-Right</button>
+		<button snap="R">5b-Right</button>
+		<button>5c-Center</button>
+
+		<button>5f-Center</button>
+		<button snap="L">5d-Left</button>
+		<button snap="L">4e-Left</button>
+
+		<button snap="R">5g-Right</button>
+		<button>5h-Center</button>
+	</row>
+
+	<row>
+		<button snap="L">6a-Left</button>
+		<button snap="L">6b-Left</button>
+
+		<button snap="">6c-center</button>
+
+		<button snap="">6d-center</button>
+
+		<button snap="R">6e-Right</button>
+	</row>
+
+	<row>
+		<button snap="LR">7a-span</button>
+		<button snap="">7b-center</button>
+		<button snap="LR">7c-span</button>
+	</row>
+
+	<row>
+		<button snap="L">8a-left</button>
+		<button snap="LR">8b-span</button>
+		<button snap="">8c-center</button>
+		<button snap="LR">8d-span</button>
+		<button snap="">8e-center</button>
+		<button snap="LR">8f-span</button>
+		<button snap="R">8g-right</button>
+	</row>
+</layout>

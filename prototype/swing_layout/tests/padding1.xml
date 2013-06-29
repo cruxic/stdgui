@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout pad="T2B1L2R1" auto-margins="false">
+	<button snap="TBLR">T2B1L2R1</button>
+
+	<!--
+		* Good looking padding should come by default.
+		* Identify some use cases for padding so the common needs are easy.  It's OK if the uncommon needs are not fullfilled.
+		* When padding is specified on the window it might render more padding by default.
+		* CSS padding refers to the inside of the box.  It would be good to follow this convention however the word padding doesn't imply inside or outside.
+
+Approach:
+		* every component will default to margin="auto".  Auto margins means
+			left and top margins for every component and right and bottom margins for all
+			components on the last row or column.
+		* All containers (<layout auto-margins="false">, <row> and <col>) can specify a `pad` attribute which creates an inside border of padding.
+
+
+	-->
+</layout>

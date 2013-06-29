@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">
+	<row snap="T">
+		<button snap="L">Top-Left</button>
+		<button>Top-Center</button>
+		<button snap="R">Top-Right</button>
+	</row>
+	<row>
+		<button snap="L">Left-Center</button>
+		<button>Center</button>
+		<button snap="R">Right-Center</button>
+	</row>
+	<row snap="B">
+		<button snap="L">Bottom-Left</button>
+		<button snap="">Bottom-Center</button>
+		<button snap="R">Bottom-Right</button>
+	</row>
+</layout>

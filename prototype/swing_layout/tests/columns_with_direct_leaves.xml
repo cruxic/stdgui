@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout auto-margins="false">  <!-- layout is an implicit column -->
+	<!-- Before, this could not be done without first creating a row -->
+	<button snap="LT">Implicit Row</button>
+
+	<row snap="T">
+		<button snap="L">Explicit row</button>
+		<button snap="LR">...</button>
+	</row>
+
+	<col snap="L">
+		<button>Column Above</button>
+	</col>
+
+	<col snap="R">
+		<button>Column Below</button>
+	</col>
+
+
+	<!-- Before, this could not be done without first creating a row -->
+	<button snap="TBR">Another Implicit Row</button>
+</layout>
